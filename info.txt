@@ -1,0 +1,9 @@
+// helps coder
+
+// npm init  ---- package
+// npm install typescript --save-dev
+// npx tsc --init --rootDir src --outDir build
+// npx tsc
+
+// jab hum typescript file me code likhte hai tab runtime pe error dikhata hai-->more beneficial
+// jab hum js file me code likhte tab execution ke baad error dikhata hai
