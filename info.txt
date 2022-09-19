@@ -1,9 +1,11 @@
 // helps coder
 
-// npm init  ---- package
-// npm install typescript --save-dev
-// npx tsc --init --rootDir src --outDir build
+// npm init -y           ----> package.json
+// npm install typescript --save-dev  ---> typescript install
+// npx tsc --init --rootDir src --outDir build ---> to make tscongif.json
 // npx tsc
+// npx tsc -watch
+
 
 // jab hum typescript file me code likhte hai tab runtime pe error dikhata hai-->more beneficial
 // jab hum js file me code likhte tab execution ke baad error dikhata hai
