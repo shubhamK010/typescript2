@@ -1,3 +1,76 @@
+
+// class Car {
+//     drive() {
+//         console.log('Driving .....Car')
+//     }
+// }
+// class Truck {
+//     drive() {
+//         console.log('Driving .....Truck')
+//     }
+//     loadTruck(quantity: number) {
+//         console.log(quantity)
+//     }
+// }
+// type VehicleQ = Car | Truck
+
+// let v1 = new Car();
+// let v2 = new Truck()
+
+// function useVehicle(veh: VehicleQ) {
+//     veh.drive()
+//     // if ('loadTruck' in veh) {
+//     //     veh.loadTruck(1000)
+//     // }
+
+//     if(veh instanceof Truck){
+//         veh.loadTruck(1000)
+//     }
+
+// }
+// useVehicle(v1)
+// useVehicle(v2)
+
+//next program 
+
+// interface Bird{
+//     type:'bird';
+//     flyingSpeed:number  
+// }  
+
+// interface Tiger{
+//     type:'tiger'
+//     runningSpeed:number  
+// }   
+
+// type Animal = Bird|Tiger
+// function animalMovenment(animal:Animal){
+//     let speed;
+//     switch(animal.type){
+//         case 'bird':
+//             speed = animal.flyingSpeed
+//             break;
+//         case 'tiger':
+//             speed = animal.runningSpeed
+//             break
+//         default:
+//             console.log('Incorrect')
+//     }
+//     console.log(speed)
+// }
+
+// animalMovenment({type:'bird','flyingSpeed':10})
+// animalMovenment({type:'tiger','runningSpeed':10})
+
+
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
 //in index.html file in <body>
 
 // <p> Para </p>
