@@ -1,34 +1,36 @@
 
-// class Department{
-//     public readonly country = "India"
-//     public fullName:string;
-//     private employees:string[]=['abc']
+class Department{
+    public readonly country = "India"
+    public fullName:string;
+    private employees:string[]=['abc']
 
 
-//     constructor(n:string){
-//         this.fullName=n
-//     }
+    constructor(n:string){
+        this.fullName=n
+    }
 
-//     describe(){
-//         console.log(`Department:${this.fullName}`)
-//     }
-//     addEmployee(employeeName:string){
-//         this.employees.push(employeeName)
+    describe(){
+        console.log(`Department:${this.fullName}`)
+    }
+    addEmployee(employeeName:string[]){
+        this.employees=employeeName
        
-//     }
+    }
 
-//             public setName(a:string){
+            public setName(a:string){
            
-//         }
-//     information(){
-//         console.log(this.employees.length)
-//         console.log(this.employees)
-//     }
-// }
+        }
+    information(){
+        console.log(this.employees.length)
+        console.log(this.employees)
+    }
+}
 
-// let admin = new Department('Admin')
-// admin.describe()
-// console.log(admin)
+let admin = new Department('Admin')
+admin.describe()
+console.log(admin)
+admin.addEmployee(['abc1','abc2'])
+
 
 
 

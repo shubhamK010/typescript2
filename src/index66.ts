@@ -18,8 +18,8 @@
 // console.log(Employee.currentYear)
 // console.log(Employee.CreateEmployee("shubham kamble"))
 
-// //iske pehle bhi humne koi static cheej dekhi hai kya?Ans.Yes---->Math
-// //yaha par bhi hum math ka object nahi bana rahe directly className pe call kar rahe hai
+// // //iske pehle bhi humne koi static cheej dekhi hai kya?Ans.Yes---->Math
+// // //yaha par bhi hum math ka object nahi bana rahe directly className pe call kar rahe hai
 // console.log(Math.PI) //yaha me math ek class hai...PI ek static property hai
 // console.log(Math.floor(122.3))//yaha me math ek class hai..floor yaha pe ek method hai
 
@@ -104,7 +104,7 @@
 //         if(Accounting.instance){
 //             return  this.instance  //yaha pe instance ki value abhi set nahi hai..agar set hai to hume ye 102 line pe likha hai wo return milna chahiye
 //         }
-//         this.instance = new Accounting(12,'20202')   //agar instance ki value set nahi hai to first time uske liye ye code likh ke value set karo
+//         this.instance = new Accounting(12,'2020')   //agar instance ki value set nahi hai to first time uske liye ye code likh ke value set karo
 //         return this.instance         //instance ki value hum yaha pe object create karke usme parameters bhej rahe hai jo ki line no 104 pe hai
 //     }
 
@@ -204,7 +204,7 @@
 // interface Greetablee {
 //     name: string
 //     greet(word: string): void
-//     display(year:string):void;
+    
 // }
 // interface Year {
 //     year:string 
@@ -227,7 +227,7 @@
 //     }
 // }
 
-// let amolJa:PersonJa = new PersonJa("chinmay",'2022')
+// let amolJa = new PersonJa("chinmay",'2022')
 // amolJa.greet("hello")
 // amolJa.display('2022')
 
