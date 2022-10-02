@@ -26,11 +26,11 @@
 // a21.fname     //ye yaha pe mujhe error de raha hai..lekin hona to chahiye wha pe
 
 //Problem statement 2--->its like we are hardcoding it
-function merge(objOne:{fname:string},objTwo:{age:number}){
-    return Object.assign(objOne,objTwo)
-}
-let a21= merge({fname:"ram"},{age:12}) 
-a21.fname    //ab ye to error chala jayega kyuki upar maine values hardcode karke rakhi hai 
+// function merge(objOne:{fname:string},objTwo:{age:number}){
+//     return Object.assign(objOne,objTwo)
+// }
+// let a21= merge({fname:"ram"},{age:12}) 
+// a21.fname    //ab ye to error chala jayega kyuki upar maine values hardcode karke rakhi hai 
 // let a211=merge({rollNo:50},{isMarried:true}) //ab aisa new parameter pass karte samay pe rollNo ki value send kar raha hu to wo error dega kyuki upar maine uski value set nahi ki hai...aur dusre code ko hardcode karke rakha haiS
 
 //but ye sahi tarika nahi
