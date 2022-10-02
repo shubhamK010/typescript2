@@ -8,4 +8,4 @@
 
 
 // jab hum typescript file me code likhte hai tab runtime pe error dikhata hai-->more beneficial
-// jab hum js file me code likhte tab execution ke baad error dikhata hai
+// jab hum js file me code likhte tab execution ke baad error dikhata hai....
