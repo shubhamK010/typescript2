@@ -1,16 +1,16 @@
-// class PersonC {
-//     // public firstName:string;
-//     // public lastName:string;
-//     constructor(public firstName:string, public lastName:string){
-//         // this.firstName = firstName
-//         // this.lastName = lastName
-//     }
-//     display(){
-//         console.log(this.firstName+ this.lastName)
-//     }
-// }
-// let  obj1 = new PersonC("gauri","kanhe")
-// obj1.display()
+class PersonC {
+    // public firstName:string;
+    // public lastName:string;
+    constructor(public firstName:string, public lastName:string){
+        // this.firstName = firstName
+        // this.lastName = lastName
+    }
+    display(){
+        console.log(this.firstName+ this.lastName)
+    }
+}
+let  obj1 = new PersonC("gauri","kanhe")
+obj1.display()
 
 // class PersonD{
 //     constructor(private firstName:string , private lastName:string){
@@ -19,7 +19,7 @@
 //         console.log(this.firstName,this.lastName)
 //     }
 
-// getter
+// // getter
 
 // getName(){
 //     return this.firstName
